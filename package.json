@@ -1,0 +1,27 @@
+{
+  "name": "@yumemi-inc/clear-cache-action",
+  "description": "Cleans up caches for GitHub Actions by their keys or branches. ",
+  "author": "Natsuki Ikeguchi <n_ikeguchi@yumemi.co.jp>",
+  "license": "MIT",
+  "readme": "README.md",
+  "main": "index.js",
+  "scripts": {
+    "build": "esbuild index.ts --bundle --platform=node --outfile=dist/index.js",
+    "check": "rome format . && rome check .",
+    "fix": "rome format --write . && rome check --apply-unsafe ."
+  },
+  "dependencies": {
+    "@actions/core": "^1.10.0",
+    "@actions/exec": "^1.1.1",
+    "@actions/github": "^5.1.1",
+    "@octokit/rest": "^20.0.1",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "@octokit/plugin-rest-endpoint-methods": "^9.0.0",
+    "@types/node": "^16.18.44",
+    "esbuild": "^0.19.2",
+    "rome": "^12.1.3",
+    "typescript": "^5.1.6"
+  }
+}
