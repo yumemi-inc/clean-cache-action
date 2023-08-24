@@ -1,0 +1,20 @@
+name: Clean Cache Action
+description: Cleans up caches for GitHub Actions by their keys or branches.
+author: YUMEMI Inc.
+branding:
+  icon: trash
+  color: green
+runs:
+  using: node16
+  main: 'index.js'
+inputs:
+  token:
+    required: true
+    description: Authenticated GitHub token.
+    default: '${{ github.token }}'
+  ref:
+    required: false
+    description: The full Git reference for narrowing down the cache. The ref for a branch should be formatted as refs/heads/<branch name>. To reference a pull request use refs/pull/<number>/merge.
+  key:
+    required: false
+    description: An explicit key or prefix for identifying the cache
