@@ -63,7 +63,7 @@ const getInputOptional = (name: string) => {
         `✅ Successfully deleted cache '${cache.key}' (${cache.size_in_bytes} bytes)`,
       );
     }
-  } while (caches.data.total_count <= caches.data.actions_caches.length);
+  } while (caches.data.total_count > caches.data.actions_caches.length);
 })()
   .then()
   .catch((e) => {
