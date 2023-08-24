@@ -39,11 +39,11 @@ const getInputOptional = (name: string) => {
       ...context.repo,
       ref,
       key,
-      page: page++,
+      page,
       per_page: 100,
     });
 
-    if (page === 1 && caches.data.actions_caches.length === 0) {
+    if (page++ === 1 && caches.data.actions_caches.length === 0) {
       console.log('✨ No caches found, looks shine!');
       break;
     }
