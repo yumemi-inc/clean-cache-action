@@ -17185,7 +17185,7 @@ var getInputOptional = (name) => {
         `\u2705 Successfully deleted cache '${cache.key}' (${cache.size_in_bytes} bytes)`
       );
     }
-  } while (caches.data.total_count <= caches.data.actions_caches.length);
+  } while (caches.data.total_count > caches.data.actions_caches.length);
 })().then().catch((e2) => {
   (0, import_core.error)(`\u274C ${e2}`);
   (0, import_node_process.exit)(1);
