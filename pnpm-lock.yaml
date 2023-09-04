@@ -26,8 +26,8 @@ devDependencies:
     specifier: ^9.0.0
     version: 9.0.0(@octokit/core@5.0.0)
   '@types/node':
-    specifier: ^16.18.46
-    version: 16.18.46
+    specifier: ^16.18.48
+    version: 16.18.48
   esbuild:
     specifier: ^0.19.2
     version: 0.19.2
@@ -504,8 +504,8 @@ packages:
     dev: true
     optional: true
 
-  /@types/node@16.18.46:
-    resolution: {integrity: sha512-Mnq3O9Xz52exs3mlxMcQuA7/9VFe/dXcrgAyfjLkABIqxXKOgBRjyazTxUbjsxDa4BP7hhPliyjVTP9RDP14xg==}
+  /@types/node@16.18.48:
+    resolution: {integrity: sha512-mlaecDKQ7rIZrYD7iiKNdzFb6e/qD5I9U1rAhq+Fd+DWvYVs+G2kv74UFHmSOlg5+i/vF3XxuR522V4u8BqO+Q==}
     dev: true
 
   /before-after-hook@2.2.3:
