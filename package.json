@@ -19,7 +19,7 @@
   },
   "devDependencies": {
     "@biomejs/biome": "^1.2.2",
-    "@octokit/plugin-rest-endpoint-methods": "^10.0.0",
+    "@octokit/plugin-rest-endpoint-methods": "^10.0.1",
     "@types/node": "^20.5.9",
     "esbuild": "^0.19.4",
     "typescript": "^5.2.2"

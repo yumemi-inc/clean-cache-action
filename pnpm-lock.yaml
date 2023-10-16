@@ -26,8 +26,8 @@ devDependencies:
     specifier: ^1.2.2
     version: 1.2.2
   '@octokit/plugin-rest-endpoint-methods':
-    specifier: ^10.0.0
-    version: 10.0.0(@octokit/core@5.0.0)
+    specifier: ^10.0.1
+    version: 10.0.1(@octokit/core@5.0.0)
   '@types/node':
     specifier: ^20.5.9
     version: 20.5.9
@@ -448,8 +448,8 @@ packages:
       '@octokit/core': 5.0.0
     dev: false
 
-  /@octokit/plugin-rest-endpoint-methods@10.0.0(@octokit/core@5.0.0):
-    resolution: {integrity: sha512-16VkwE2v6rXU+/gBsYC62M8lKWOphY5Lg4wpjYnVE9Zbu0J6IwiT5kILoj1YOB53XLmcJR+Nqp8DmifOPY4H3g==}
+  /@octokit/plugin-rest-endpoint-methods@10.0.1(@octokit/core@5.0.0):
+    resolution: {integrity: sha512-fgS6HPkPvJiz8CCliewLyym9qAx0RZ/LKh3sATaPfM41y/O2wQ4Z9MrdYeGPVh04wYmHFmWiGlKPC7jWVtZXQA==}
     engines: {node: '>= 18'}
     peerDependencies:
       '@octokit/core': '>=5'
@@ -513,7 +513,7 @@ packages:
       '@octokit/core': 5.0.0
       '@octokit/plugin-paginate-rest': 9.0.0(@octokit/core@5.0.0)
       '@octokit/plugin-request-log': 4.0.0(@octokit/core@5.0.0)
-      '@octokit/plugin-rest-endpoint-methods': 10.0.0(@octokit/core@5.0.0)
+      '@octokit/plugin-rest-endpoint-methods': 10.0.1(@octokit/core@5.0.0)
     dev: false
 
   /@octokit/types@11.1.0:
