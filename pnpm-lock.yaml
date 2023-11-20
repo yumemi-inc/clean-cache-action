@@ -26,8 +26,8 @@ devDependencies:
     specifier: ^1.3.3
     version: 1.3.3
   '@octokit/plugin-rest-endpoint-methods':
-    specifier: ^10.1.4
-    version: 10.1.4(@octokit/core@5.0.1)
+    specifier: ^10.1.5
+    version: 10.1.5(@octokit/core@5.0.1)
   '@types/node':
     specifier: ^20.5.9
     version: 20.5.9
@@ -59,7 +59,7 @@ packages:
       '@actions/http-client': 2.2.0
       '@octokit/core': 5.0.1
       '@octokit/plugin-paginate-rest': 9.0.0(@octokit/core@5.0.1)
-      '@octokit/plugin-rest-endpoint-methods': 10.1.4(@octokit/core@5.0.1)
+      '@octokit/plugin-rest-endpoint-methods': 10.1.5(@octokit/core@5.0.1)
     dev: false
 
   /@actions/http-client@2.1.1:
@@ -375,7 +375,7 @@ packages:
       '@octokit/graphql': 7.0.1
       '@octokit/request': 8.1.1
       '@octokit/request-error': 5.0.0
-      '@octokit/types': 12.1.1
+      '@octokit/types': 12.3.0
       before-after-hook: 2.2.3
       universal-user-agent: 6.0.0
 
@@ -408,7 +408,7 @@ packages:
       '@octokit/core': '>=5'
     dependencies:
       '@octokit/core': 5.0.0
-      '@octokit/types': 12.1.1
+      '@octokit/types': 12.3.0
     dev: false
 
   /@octokit/plugin-paginate-rest@9.0.0(@octokit/core@5.0.1):
@@ -418,7 +418,7 @@ packages:
       '@octokit/core': '>=5'
     dependencies:
       '@octokit/core': 5.0.1
-      '@octokit/types': 12.1.1
+      '@octokit/types': 12.3.0
     dev: false
 
   /@octokit/plugin-request-log@4.0.0(@octokit/core@5.0.0):
@@ -430,8 +430,8 @@ packages:
       '@octokit/core': 5.0.0
     dev: false
 
-  /@octokit/plugin-rest-endpoint-methods@10.1.4(@octokit/core@5.0.0):
-    resolution: {integrity: sha512-e8dSb9ypW1Q2I+qkOPzs3A9f4/EGpSZSI45wWBfXiqcvpoxSywVcZajZRhFwAutKI+/NNoeKxsxMwCx73oQyWw==}
+  /@octokit/plugin-rest-endpoint-methods@10.1.5(@octokit/core@5.0.0):
+    resolution: {integrity: sha512-LMEdsMV8TTMjMTqVoqMzV95XTbv0ZsWxCxQtjAunQOCdwoDH4BVF/Ke5JMSZEVCWGI2kzxnUNbFnK/MxwV7NjA==}
     engines: {node: '>= 18'}
     peerDependencies:
       '@octokit/core': '>=5'
@@ -440,8 +440,8 @@ packages:
       '@octokit/types': 12.3.0
     dev: false
 
-  /@octokit/plugin-rest-endpoint-methods@10.1.4(@octokit/core@5.0.1):
-    resolution: {integrity: sha512-e8dSb9ypW1Q2I+qkOPzs3A9f4/EGpSZSI45wWBfXiqcvpoxSywVcZajZRhFwAutKI+/NNoeKxsxMwCx73oQyWw==}
+  /@octokit/plugin-rest-endpoint-methods@10.1.5(@octokit/core@5.0.1):
+    resolution: {integrity: sha512-LMEdsMV8TTMjMTqVoqMzV95XTbv0ZsWxCxQtjAunQOCdwoDH4BVF/Ke5JMSZEVCWGI2kzxnUNbFnK/MxwV7NjA==}
     engines: {node: '>= 18'}
     peerDependencies:
       '@octokit/core': '>=5'
@@ -474,18 +474,13 @@ packages:
       '@octokit/core': 5.0.0
       '@octokit/plugin-paginate-rest': 9.0.0(@octokit/core@5.0.0)
       '@octokit/plugin-request-log': 4.0.0(@octokit/core@5.0.0)
-      '@octokit/plugin-rest-endpoint-methods': 10.1.4(@octokit/core@5.0.0)
+      '@octokit/plugin-rest-endpoint-methods': 10.1.5(@octokit/core@5.0.0)
     dev: false
 
   /@octokit/types@11.1.0:
     resolution: {integrity: sha512-Fz0+7GyLm/bHt8fwEqgvRBWwIV1S6wRRyq+V6exRKLVWaKGsuy6H9QFYeBVDV7rK6fO3XwHgQOPxv+cLj2zpXQ==}
     dependencies:
       '@octokit/openapi-types': 18.0.0
-
-  /@octokit/types@12.1.1:
-    resolution: {integrity: sha512-qnJTldJ1NyGT5MTsCg/Zi+y2IFHZ1Jo5+njNCjJ9FcainV7LjuHgmB697kA0g4MjZeDAJsM3B45iqCVsCLVFZg==}
-    dependencies:
-      '@octokit/openapi-types': 19.0.2
 
   /@octokit/types@12.3.0:
     resolution: {integrity: sha512-nJ8X2HRr234q3w/FcovDlA+ttUU4m1eJAourvfUUtwAWeqL8AsyRqfnLvVnYn3NFbUnsmzQCzLNdFerPwdmcDQ==}
