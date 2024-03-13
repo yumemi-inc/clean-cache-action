@@ -2,7 +2,7 @@ import { exit } from 'node:process';
 
 import { error, getInput, warning } from '@actions/core';
 import { context } from '@actions/github';
-import { type RestEndpointMethodTypes } from '@octokit/plugin-rest-endpoint-methods/dist-types/generated/parameters-and-response-types';
+import type { RestEndpointMethodTypes } from '@octokit/plugin-rest-endpoint-methods/dist-types/generated/parameters-and-response-types';
 import { Octokit } from '@octokit/rest';
 import fetch from 'node-fetch';
 
