@@ -18,7 +18,7 @@
     "node-fetch": "^3.3.2"
   },
   "devDependencies": {
-    "@biomejs/biome": "^1.6.4",
+    "@biomejs/biome": "^1.7.0",
     "@octokit/plugin-rest-endpoint-methods": "^12.2.0",
     "@types/node": "^20.5.9",
     "esbuild": "^0.20.2",
