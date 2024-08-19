@@ -18,8 +18,8 @@ importers:
         specifier: ^6.0.0
         version: 6.0.0
       '@octokit/rest':
-        specifier: ^21.0.1
-        version: 21.0.1
+        specifier: ^21.0.2
+        version: 21.0.2
       node-fetch:
         specifier: ^3.3.2
         version: 3.3.2
@@ -29,7 +29,7 @@ importers:
         version: 1.8.3
       '@octokit/plugin-rest-endpoint-methods':
         specifier: ^13.2.4
-        version: 13.2.4(@octokit/core@6.1.2)
+        version: 13.2.4(@octokit/core@5.0.1)
       '@types/node':
         specifier: ^20.5.9
         version: 20.5.9
@@ -348,8 +348,8 @@ packages:
     resolution: {integrity: sha512-hShsrZ40W8dz3TkyD5ifHNcrYfYpYF7Sh2x+ZKafA+eO0zNeKDTsbF1E0xrUf0mVYGeKL+NLMO5SnfAP22l05Q==}
     engines: {node: '>= 18'}
 
-  '@octokit/rest@21.0.1':
-    resolution: {integrity: sha512-RWA6YU4CqK0h0J6tfYlUFnH3+YgBADlxaHXaKSG+BVr2y4PTfbU2tlKuaQoQZ83qaTbi4CUxLNAmbAqR93A6mQ==}
+  '@octokit/rest@21.0.2':
+    resolution: {integrity: sha512-+CiLisCoyWmYicH25y1cDfCrv41kRSvTq6pPWtRroRJzhsCZWZyCqGyI8foJT5LmScADSwRAnr/xo+eewL04wQ==}
     engines: {node: '>= 18'}
 
   '@octokit/types@11.1.0':
@@ -645,6 +645,11 @@ snapshots:
       '@octokit/core': 5.0.1
       '@octokit/types': 12.6.0
 
+  '@octokit/plugin-rest-endpoint-methods@13.2.4(@octokit/core@5.0.1)':
+    dependencies:
+      '@octokit/core': 5.0.1
+      '@octokit/types': 13.5.0
+
   '@octokit/plugin-rest-endpoint-methods@13.2.4(@octokit/core@6.1.2)':
     dependencies:
       '@octokit/core': 6.1.2
@@ -675,7 +680,7 @@ snapshots:
       '@octokit/types': 12.6.0
       universal-user-agent: 7.0.2
 
-  '@octokit/rest@21.0.1':
+  '@octokit/rest@21.0.2':
     dependencies:
       '@octokit/core': 6.1.2
       '@octokit/plugin-paginate-rest': 11.3.1(@octokit/core@6.1.2)
