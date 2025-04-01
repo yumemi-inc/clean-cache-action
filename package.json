@@ -25,7 +25,7 @@
     "@biomejs/biome": "^1.9.4",
     "@octokit/plugin-rest-endpoint-methods": "^13.5.0",
     "@types/node": "^20.17.28",
-    "esbuild": "^0.25.1",
+    "esbuild": "^0.25.2",
     "typescript": "^5.8.2"
   }
 }
