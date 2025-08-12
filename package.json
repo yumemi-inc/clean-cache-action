@@ -26,6 +26,6 @@
     "@octokit/plugin-rest-endpoint-methods": "^16.0.0",
     "@types/node": "^20.17.58",
     "esbuild": "^0.25.8",
-    "typescript": "^5.8.3"
+    "typescript": "^5.9.2"
   }
 }
