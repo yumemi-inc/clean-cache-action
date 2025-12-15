@@ -15,7 +15,7 @@
     "fix": "biome format --write . && biome check --apply-unsafe ."
   },
   "dependencies": {
-    "@actions/core": "^1.11.1",
+    "@actions/core": "^2.0.1",
     "@actions/exec": "^1.1.1",
     "@actions/github": "^6.0.1",
     "@octokit/rest": "^22.0.1",
